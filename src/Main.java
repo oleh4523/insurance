@@ -6,6 +6,7 @@ public class Main {
         Policy p2 = new Policy("CAR-102", "Piotr Lis", 840.0, 1, 54000.0, false, false);
         Policy p3 = new Policy("CAR-103", "Karolina Maj", 780.0, 2, 46000.0, true, false);
 
+        System.out.println(Policy.getCreatedPolicyCount());
 
     }
 }

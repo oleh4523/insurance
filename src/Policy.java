@@ -33,6 +33,10 @@ public class Policy {
     }
 
 
+    public static int getCreatedPolicyCount() {
+        return createdPolicyCount;
+    }
+
     public String getPolicyNumber() {
         return policyNumber;
     }
